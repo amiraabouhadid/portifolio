@@ -1,0 +1,111 @@
+* {
+  overflow-x: hidden;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+.headline-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  height: 590px;
+  left: 0px;
+  top: 92px;
+  background: #1C1A19;
+  z-index: 1;
+}
+
+h1 {
+  color: #FF6B00;
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  width: 566px;
+  height: 160px;
+  left: 0px;
+  top: 892px;
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 81px;
+  color: #F55800;
+}
+
+.side-design-m {
+  position: absolute;
+  left: 65.74%;
+  right: -30.09%;
+  top: 40%;
+  bottom: -11.63%;
+  z-index: 4;
+}
+
+.side-design-l {
+  position: absolute;
+  left: 65.74%;
+  right: -30.09%;
+  top: 10%;
+  bottom: -11.63%;
+  z-index: 4;
+}
+
+.headline-dt {
+  padding: 192px 0px;
+  width: 566px;
+  height: 739px;
+  top: 72px;
+  background-color: black;
+  overflow-y: hidden;
+  z-index: 1;
+}
+
+.h-block {
+  left: 50%;
+}
+
+.rm-h {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 327px;
+  height: 107px;
+  left: 24px;
+  top: 120px;
+}
+
+.rm-cell-img {
+  background-color:  darkorange;
+  position: static;
+  width: 100%;
+  height: 237px;
+  left: 24px;
+  top: 0px;
+  z-index: 3;
+}
+
+.rm-img {
+  position: static;
+  z-index:5;
+}
+
+h4 {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.75rem;
+  line-height: 137%;
+}
+.rm-cell-link-b{
+  background-color: #FF6B00;
+}
