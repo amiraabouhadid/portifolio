@@ -42,34 +42,39 @@ h2 {
 
 .side-design-m {
   position: absolute;
-  left: 65.74%;
-  right: -30.09%;
-  top: 40%;
-  bottom: -11.63%;
+  right: 0;
+  top: 30%;
+  height: 400px;
   z-index: 4;
 }
 
 .side-design-l {
-  position: absolute;
-  left: 65.74%;
-  right: -30.09%;
-  top: 10%;
-  bottom: -11.63%;
+  right: 0;
+  top: 0;
+  height: 783.9px;
+  z-index: 4;
+}
+
+.side-design-xl {
+  right: 0%;
+  top: 0%;
+  height: 783.9px;
   z-index: 4;
 }
 
 .headline-dt {
-  padding: 192px 0px;
-  width: 566px;
-  height: 739px;
+  padding: 192px 0px 192px 800px;
   top: 72px;
+  height: 783.4px;
   background-color: black;
   overflow-y: hidden;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 .h-block {
   left: 50%;
+  background-color: black;
 }
 
 .rm-h {
@@ -94,9 +99,16 @@ h2 {
   overflow-y: hidden;
 }
 
+.rm-cell-img-l {
+  background-color: darkorange;
+  width: 100%;
+}
+
 .rm-img {
   z-index: 5;
 }
+
+.recent-works-l {}
 
 h4 {
   font-family: Crete Round;
@@ -113,6 +125,14 @@ h4 {
   font-weight: normal;
   font-size: 32px;
   line-height: 137%;
+}
+
+.rm-card-bod {
+  margin-bottom: 0;
+}
+
+.rm-card-bod-l {
+  margin-bottom: 0;
 }
 
 .rm-cell-link-b {
@@ -149,6 +169,12 @@ h4 {
 
 .about-me-container {
   background: black;
+  z-index: 1;
+}
+
+.about-me-container-l {
+  background: black;
+  z-index: 1;
 }
 
 .about-me-h {
@@ -189,6 +215,17 @@ h4 {
   line-height: 137%;
 }
 
-.submit-button-touch{
+.submit-button-touch {
   background-color: #FF6B00;
+}
+
+.side-design-2 {
+  right: 0;
+  z-index: 10;
+}
+
+@media (min-width:768px) {
+  .rm-card-h {
+    margin-top: 22.5%;
+  }
 }
