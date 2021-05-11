@@ -87,7 +87,7 @@ h2 {
 .rm-cell-img {
   background-color: darkorange;
   width: 100%;
-  height: 237px;
+  height: 75%;
   left: 24px;
   top: 0px;
   z-index: 3;
@@ -180,4 +180,15 @@ h4 {
   font-weight: bold;
   font-size: 1.65rem;
   line-height: 137%;
+}
+
+.contact-h {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 137%;
+}
+
+.submit-button-touch{
+  background-color: #FF6B00;
 }

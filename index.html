@@ -91,13 +91,14 @@
         <div class="rm-cell-bod">
           <p>A responsive and adaptable directory that links to search results and details pages. </p>
         </div>
-        <div class="rm-cell-langs">
-          <button class="small p-2 mr-2 border-light rounded bg-light" type="button" name="button">CSS3</button>
-          <button class="small p-2 mr-2 border-light rounded bg-light" type="button" name="button">HTML5</button>
-          <button class="small p-2 mr-2 border-light rounded bg-light" type="button" name="button">Bootstrap</button>
+        <div class="rm-cell-langs row ">
+          <p class="small p-2 border mx-3">CSS3</p>
+          <p class="small p-2 border mr-3">HTML5</p>
+          <p class="small p-2 border">Bootstrap</p>
+
         </div>
         <div class="rm-cell-link">
-          <button class="p-2 my-2 mr-2 rounded border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button">See Project</button>
+          <button class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button">See Project</button>
         </div>
       </div>
 
@@ -110,8 +111,8 @@
             <div class="rm-card-p">
               <p class="text-light">A customizable data scraper that fetches information from a website.</p>
             </div>
-            <div class="rm-card-langs ">
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">Ruby</button>
+            <div class="rm-card-langs row">
+              <p class="small text-light p-2 border mx-3  text-center">Ruby</p>
             </div>
           </div>
         </div>
@@ -127,11 +128,11 @@
             <div class="rm-card-p">
               <p class="text-light">An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post.</p>
             </div>
-            <div class="rm-card-langs ">
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">Ruby</button>
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">Javascript</button>
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">SCSS</button>
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">HTML</button>
+            <div class="rm-card-langs row">
+              <p class="small text-light p-2 border mx-3">Ruby</p>
+              <p class="small text-light p-2 border mr-3">Javascript</p>
+              <p class="small text-light p-2 border mr-3">SCSS</p>
+              <p class="small text-light p-2 border mr-3">HTML</p>
             </div>
           </div>
         </div>
@@ -147,11 +148,11 @@
             <div class="rm-card-p">
               <p class="text-light">A website where only members can create or enroll in events. Creators can invite other users to their events.</p>
             </div>
-            <div class="rm-card-langs ">
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">Rails</button>
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">Javascript</button>
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">SCSS</button>
-              <button class="rm-card-langs-b text-light rounded p-1 mr-2" type="button" name="button">HTML</button>
+            <div class="rm-card-langs row ">
+              <p class="small text-light p-2 border mx-3">Rails</p>
+              <p class="small text-light p-2 border mr-3">Javascript</p>
+              <p class="small text-light p-2 border mr-3">SCSS</p>
+              <p class="small text-light p-2 border mr-3">HTML</p>
             </div>
           </div>
         </div>
@@ -159,7 +160,7 @@
       </div>
     </div>
   </section>
-  <section class="about-me-container container-fluid w-100">
+  <section class="about-me-container container-fluid w-100 my-5">
     <div class="about-me-container-h">
       <h6 class="about-me-h ">About me</h6>
       <p class="about-me-bod text-light">Hello, I am a software developer! I can help you transform your ideas to valuable products, features or website. Have a look through my work and experience. If you like what you see, then feel free to contact
@@ -205,7 +206,39 @@
       </div>
     </div>
   </section>
-  <section class="get-in-touch">
+  <section class="get-in-touch my-5">
+    <div class="contact-container container-fluid my-5">
+      <div class="contact w-75 text-center mx-auto">
+        <p class="contact-h text-weight-bolder">I am always interested in hearing about new projects, so feel free to get in touch with me:</p>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+
+              <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput1" placeholder="Full name">
+            </div>
+            <div class="form-group">
+
+              <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput2" placeholder="Email adress">
+            </div>
+
+            <div class="form-group">
+
+              <textarea class="form-control border-0 bg-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here..."></textarea>
+            </div>
+            <input class="button text-light font-weight-bolder submit-button-touch p-2 w-100 "type="submit" value="Get in touch" onclick="sendEmail();">
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <div class="links-bottom text-center">
+      <a class="text-dark" href="https://github.com/amiraabouhadid"><i class="fab fa-github mr-3"></i></a>
+      <a class="text-dark" href="https://www.linkedin.com/in/amira-abouhadid/"><i class="fab fa-linkedin-in mr-3"></i></a>
+      <a class="text-dark" href="https://www.facebook.com/amira.abouhadid"><i class="fab fa-facebook-f mr-3"></i></a>
+      <a class="text-dark" href="https://www.instagram.com/amiraabouhadid/"><i class="fab fa-instagram mr-3"></i></a>
+      <a class="text-dark" href="https://twitter.com/AbouhadidAmira"><i class="fab fa-twitter mr-3"></i></a>
+      <a class="text-dark" href="https://medium.com/@amiraabouhadid"><i class="fab fa-medium"></i></a>
+    </div>
 
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
