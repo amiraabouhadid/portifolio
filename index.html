@@ -7,10 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <title>Amira Abouhadid</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="script.js">
+
+  </script>
 </head>
 
 <body>
@@ -76,122 +80,35 @@
       </div>
     </div>
   </section>
-  <section class="recent-works-m d-xs-block d-sm-none container-fluid my-5">
-    <div class="rm-h mx-auto my-3">
-      <h3 class="font-weight-bolder">My Recent Projects</h3>
-      <hr class='w-100'>
-    </div>
-    <div class="rm-body mx-auto">
-      <div class="rm-cell ">
-        <div class="rm-cell-img  d-flex align-items-center justify-content-center">
-          <img class="rm-img p-4" src="pictures/p-1.png" alt="">
-        </div>
-        <div class="rm-cell-h mt-3">
-          <h4 class="font-weight-bold ">Search Engine Directory</h4>
-        </div>
-        <div class="rm-cell-bod">
-          <p>A responsive and adaptable directory that links to search results and details pages. </p>
-        </div>
-        <div class="rm-cell-langs row ">
-          <p class="small p-2 border mx-3">CSS3</p>
-          <p class="small p-2 border mr-3">HTML5</p>
-          <p class="small p-2 border">Bootstrap</p>
-
-        </div>
-        <div class="rm-cell-link">
-          <button class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button">See Project</button>
-        </div>
+  <section id="portifolio">
+    <div class="recent-works-m d-xs-block d-sm-none container-fluid my-5">
+      <div class="rm-h mx-auto my-3">
+        <h3 class="font-weight-bolder">My Recent Projects</h3>
+        <hr class='w-100'>
       </div>
-
-      <div class="rm-card-cell my-4">
-        <div class="rm-card-1">
-          <div class="rm-card-bod p-3">
-            <div class="rm-card-h ">
-              <h5 class="text-light font-weight-bolder">Data Scraper</h5>
-            </div>
-            <div class="rm-card-p">
-              <p class="text-light">A customizable data scraper that fetches information from a website.</p>
-            </div>
-            <div class="rm-card-langs row">
-              <p class="small text-light p-2 border mx-3  text-center">Ruby</p>
-            </div>
+      <div class="rm-body mx-auto">
+        <div class="rm-cell ">
+          <div class="rm-cell-img  d-flex align-items-center justify-content-center">
+            <img class="rm-img p-4" src="pictures/p-1.png" alt="">
           </div>
-        </div>
-        <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
-      </div>
-
-      <div class="rm-card-cell my-4">
-        <div class="rm-card-2">
-          <div class="rm-card-bod p-3">
-            <div class="rm-card-h ">
-              <h5 class="text-light font-weight-bolder">Members Only</h5>
-            </div>
-            <div class="rm-card-p">
-              <p class="text-light">An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post.</p>
-            </div>
-            <div class="rm-card-langs row">
-              <p class="small text-light p-2 border mx-3">Ruby</p>
-              <p class="small text-light p-2 border mr-3">JS</p>
-              <p class="small text-light p-2 border mr-3">SCSS</p>
-              <p class="small text-light p-2 border mr-3">HTML</p>
-            </div>
-          </div>
-        </div>
-        <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
-      </div>
-
-      <div class="rm-card-cell my-4">
-        <div class="rm-card-3">
-          <div class="rm-card-bod p-3">
-            <div class="rm-card-h ">
-              <h5 class="text-light font-weight-bolder">Private Events</h5>
-            </div>
-            <div class="rm-card-p">
-              <p class="text-light">A website where only members can create or enroll in events. Creators can invite other users to their events.</p>
-            </div>
-            <div class="rm-card-langs row ">
-              <p class="small text-light p-2 border mx-3">Rails</p>
-              <p class="small text-light p-2 border mr-3">JS</p>
-              <p class="small text-light p-2 border mr-3">SCSS</p>
-              <p class="small text-light p-2 border mr-3">HTML</p>
-            </div>
-          </div>
-        </div>
-        <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
-      </div>
-    </div>
-  </section>
-  <section class="recent-works-l d-none d-sm-block container-fluid mx-auto my-5 w-100 ">
-    <div class="rm-h-l mx-auto row">
-      <h3 class="col-5 font-weight-bolder">My Recent Projects</h3>
-      <hr class="border-dark w-100 col-6">
-    </div>
-    <div class="rm-body-l mx-auto">
-      <div class="rm-cell-l my-5 row ">
-        <div class="rm-cell-l-left col-8">
-          <div class="rm-cell-img-l d-flex justify-content-center">
-            <img class="rm-img-l p-4" src="pictures/p-6.png" alt="">
-          </div>
-        </div>
-        <div class="rm-cell-l-right col-4">
-          <div class="rm-cell-h-l">
+          <div class="rm-cell-h mt-3">
             <h4 class="font-weight-bold ">Search Engine Directory</h4>
           </div>
-          <div class="rm-cell-bod-l">
+          <div class="rm-cell-bod">
             <p>A responsive and adaptable directory that links to search results and details pages. </p>
           </div>
-          <div class="rm-cell-langs-l row ">
+          <div class="rm-cell-langs row ">
             <p class="small p-2 border mx-3">CSS3</p>
             <p class="small p-2 border mr-3">HTML5</p>
             <p class="small p-2 border">Bootstrap</p>
+
           </div>
-          <div class="rm-cell-link-l">
+          <div class="rm-cell-link">
             <button class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button">See Project</button>
           </div>
         </div>
-      </div>
-      <div class="rm-card-cells-grid-row-1 my-4 row">
-        <div class="rm-card-cell my-4 col-4">
+
+        <div class="rm-card-cell my-4">
           <div class="rm-card-1">
             <div class="rm-card-bod p-3">
               <div class="rm-card-h ">
@@ -207,7 +124,8 @@
           </div>
           <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
         </div>
-        <div class="rm-card-cell my-4 col-4">
+
+        <div class="rm-card-cell my-4">
           <div class="rm-card-2">
             <div class="rm-card-bod p-3">
               <div class="rm-card-h ">
@@ -220,14 +138,14 @@
                 <p class="small text-light p-2 border mx-3">Ruby</p>
                 <p class="small text-light p-2 border mr-3">JS</p>
                 <p class="small text-light p-2 border mr-3">SCSS</p>
+                <p class="small text-light p-2 border mr-3">HTML</p>
               </div>
             </div>
           </div>
           <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
         </div>
 
-
-        <div class="rm-card-cell my-4 col-4">
+        <div class="rm-card-cell my-4">
           <div class="rm-card-3">
             <div class="rm-card-bod p-3">
               <div class="rm-card-h ">
@@ -240,171 +158,262 @@
                 <p class="small text-light p-2 border mx-3">Rails</p>
                 <p class="small text-light p-2 border mr-3">JS</p>
                 <p class="small text-light p-2 border mr-3">SCSS</p>
+                <p class="small text-light p-2 border mr-3">HTML</p>
               </div>
             </div>
           </div>
           <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
         </div>
       </div>
+    </div> >
+    <div class="recent-works-l d-none d-sm-block container-fluid mx-auto my-5 w-100 ">
+      <div class="rm-h-l mx-auto row">
+        <h3 class="col-5 font-weight-bolder">My Recent Projects</h3>
+        <hr class="border-dark w-100 col-6">
+      </div>
+      <div class="rm-body-l mx-auto">
+        <div class="rm-cell-l my-5 row ">
+          <div class="rm-cell-l-left col-8">
+            <div class="rm-cell-img-l d-flex justify-content-center">
+              <img class="rm-img-l p-4" src="pictures/p-6.png" alt="">
+            </div>
+          </div>
+          <div class="rm-cell-l-right col-4">
+            <div class="rm-cell-h-l">
+              <h4 class="font-weight-bold ">Search Engine Directory</h4>
+            </div>
+            <div class="rm-cell-bod-l">
+              <p>A responsive and adaptable directory that links to search results and details pages. </p>
+            </div>
+            <div class="rm-cell-langs-l row ">
+              <p class="small p-2 border mx-3">CSS3</p>
+              <p class="small p-2 border mr-3">HTML5</p>
+              <p class="small p-2 border">Bootstrap</p>
+            </div>
+            <div class="rm-cell-link-l">
+              <button class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="rm-card-cells-grid-row-1 my-4 row">
+          <div class="rm-card-cell my-4 col-4">
+            <div class="rm-card-1">
+              <div class="rm-card-bod p-3">
+                <div class="rm-card-h ">
+                  <h5 class="text-light font-weight-bolder">Data Scraper</h5>
+                </div>
+                <div class="rm-card-p">
+                  <p class="text-light">A customizable data scraper that fetches information from a website.</p>
+                </div>
+                <div class="rm-card-langs row">
+                  <p class="small text-light p-2 border mx-3  text-center">Ruby</p>
+                </div>
+              </div>
+            </div>
+            <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+          </div>
+          <div class="rm-card-cell my-4 col-4">
+            <div class="rm-card-2">
+              <div class="rm-card-bod p-3">
+                <div class="rm-card-h ">
+                  <h5 class="text-light font-weight-bolder">Members Only</h5>
+                </div>
+                <div class="rm-card-p">
+                  <p class="text-light">An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post.</p>
+                </div>
+                <div class="rm-card-langs row">
+                  <p class="small text-light p-2 border mx-3">Ruby</p>
+                  <p class="small text-light p-2 border mr-3">JS</p>
+                  <p class="small text-light p-2 border mr-3">SCSS</p>
+                </div>
+              </div>
+            </div>
+            <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+          </div>
 
+
+          <div class="rm-card-cell my-4 col-4">
+            <div class="rm-card-3">
+              <div class="rm-card-bod p-3">
+                <div class="rm-card-h ">
+                  <h5 class="text-light font-weight-bolder">Private Events</h5>
+                </div>
+                <div class="rm-card-p">
+                  <p class="text-light">A website where only members can create or enroll in events. Creators can invite other users to their events.</p>
+                </div>
+                <div class="rm-card-langs row ">
+                  <p class="small text-light p-2 border mx-3">Rails</p>
+                  <p class="small text-light p-2 border mr-3">JS</p>
+                  <p class="small text-light p-2 border mr-3">SCSS</p>
+                </div>
+              </div>
+            </div>
+            <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
-  <section class="about-me-container-l container-fluid w-100 my-5 d-none d-md-block">
-    <div class="about-me-container-h mx-5 d-none d-md-flex align-items-end">
-      <div class=" mb-4 w-50">
+  <section id="about">
+    <div class="about-me-container-l container-fluid w-100 my-5 d-none d-md-block">
+      <div class="about-me-container-h mx-5 d-none d-md-flex align-items-end">
+        <div class=" mb-4 w-50">
+          <h6 class="about-me-h ">About me</h6>
+          <p class="about-me-bod text-light ">Hello, I am a software developer! I can help you transform your ideas to valuable products, features or website. Have a look through my work and experience. If you like what you see, then feel free to
+            contact
+            me. </p>
+          <button class="about-me-resume-b text-light font-weight-bolder border-0 p-2" type="button" name="button">Get My Resume</button>
+        </div>
+
+        <div class="w-50 mt-5 ">
+          <img class='side-design-2 ml-auto float-right d-none d-md-block d-lg-none' class="small" src="pictures/group_2_m.png" alt="">
+          <img class='side-design-2 mt-5 ml-auto float-right d-none d-lg-block' class="small" src="pictures/group_2_l.png" alt="">
+
+        </div>
+      </div>
+      <hr class="border-1 my-5 border-secondary w-100">
+
+      <div class="about-me-specs text-center row">
+        <div class="about-me-langs text-light my-4 col-4">
+          <p class="font-weight-bolder about-me-specs-h"><img class="mr-2" src="pictures/Rectangle 55.svg" alt="">Languages</p>
+          <div class="about-me-list small ">
+            <p>JS</p>
+            <p>Ruby</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>Python</p>
+            <p>C++</p>
+            <p>Java</p>
+          </div>
+        </div>
+
+        <div class="about-me-frams text-light my-4 col-4">
+          <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 56.svg" alt="">Frameworks</p>
+          <div class="about-me-list small ">
+            <p>Boostrap</p>
+            <p>Ruby on Rails</p>
+            <p>RSpec</p>
+            <p>CapyBara</p>
+            <p>Selenium</p>
+          </div>
+        </div>
+
+        <div class="about-me-skills text-light my-4 col-4">
+          <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 57.svg" alt="">Skills</p>
+          <div class="about-me-list small ">
+            <p>Codekit</p>
+            <p>GitHub</p>
+            <p>Coddepen</p>
+            <p>Gitlab</p>
+            <p>Terminal</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="about-me-container container-fluid  w-100 my-5 d-md-none">
+      <div class="about-me-container-h-m  mx-auto ">
         <h6 class="about-me-h ">About me</h6>
         <p class="about-me-bod text-light ">Hello, I am a software developer! I can help you transform your ideas to valuable products, features or website. Have a look through my work and experience. If you like what you see, then feel free to
           contact
           me. </p>
         <button class="about-me-resume-b text-light font-weight-bolder border-0 p-2" type="button" name="button">Get My Resume</button>
+        <img class='side-design-2 ml-auto float-right' class="small" src="pictures/group_2_s.png" alt="">
       </div>
 
-      <div class="w-50 mt-5 ">
-        <img class='side-design-2 ml-auto float-right d-none d-md-block d-lg-none' class="small" src="pictures/group_2_m.png" alt="">
-        <img class='side-design-2 mt-5 ml-auto float-right d-none d-lg-block' class="small" src="pictures/group_2_l.png" alt="">
-
-      </div>
-    </div>
-    <hr class="border-1 my-5 border-secondary w-100">
-
-    <div class="about-me-specs text-center row">
-      <div class="about-me-langs text-light my-4 col-4">
-        <p class="font-weight-bolder about-me-specs-h"><img class="mr-2" src="pictures/Rectangle 55.svg" alt="">Languages</p>
-        <div class="about-me-list small ">
-          <p>JS</p>
-          <p>Ruby</p>
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>Python</p>
-          <p>C++</p>
-          <p>Java</p>
+      <hr class="border-1 my-5 border-secondary w-100">
+      <div class="about-me-specs text-center">
+        <div class="about-me-langs text-light my-4">
+          <p class="font-weight-bolder about-me-specs-h"><img class="mr-2" src="pictures/Rectangle 55.svg" alt="">Languages</p>
+          <div class="about-me-list small ">
+            <p>JS</p>
+            <p>Ruby</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>Python</p>
+            <p>C++</p>
+            <p>Java</p>
+          </div>
         </div>
-      </div>
 
-      <div class="about-me-frams text-light my-4 col-4">
-        <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 56.svg" alt="">Frameworks</p>
-        <div class="about-me-list small ">
-          <p>Boostrap</p>
-          <p>Ruby on Rails</p>
-          <p>RSpec</p>
-          <p>CapyBara</p>
-          <p>Selenium</p>
+        <div class="about-me-frams text-light my-4">
+          <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 56.svg" alt="">Frameworks</p>
+          <div class="about-me-list small ">
+            <p>Boostrap</p>
+            <p>Ruby on Rails</p>
+            <p>RSpec</p>
+            <p>CapyBara</p>
+            <p>Selenium</p>
+          </div>
         </div>
-      </div>
 
-      <div class="about-me-skills text-light my-4 col-4">
-        <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 57.svg" alt="">Skills</p>
-        <div class="about-me-list small ">
-          <p>Codekit</p>
-          <p>GitHub</p>
-          <p>Coddepen</p>
-          <p>Gitlab</p>
-          <p>Terminal</p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <section class="about-me-container container-fluid  w-100 my-5 d-md-none">
-    <div class="about-me-container-h-m  mx-auto ">
-      <h6 class="about-me-h ">About me</h6>
-      <p class="about-me-bod text-light ">Hello, I am a software developer! I can help you transform your ideas to valuable products, features or website. Have a look through my work and experience. If you like what you see, then feel free to
-        contact
-        me. </p>
-      <button class="about-me-resume-b text-light font-weight-bolder border-0 p-2" type="button" name="button">Get My Resume</button>
-      <img class='side-design-2 ml-auto float-right' class="small" src="pictures/group_2_s.png" alt="">
-    </div>
-
-    <hr class="border-1 my-5 border-secondary w-100">
-    <div class="about-me-specs text-center">
-      <div class="about-me-langs text-light my-4">
-        <p class="font-weight-bolder about-me-specs-h"><img class="mr-2" src="pictures/Rectangle 55.svg" alt="">Languages</p>
-        <div class="about-me-list small ">
-          <p>JS</p>
-          <p>Ruby</p>
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>Python</p>
-          <p>C++</p>
-          <p>Java</p>
-        </div>
-      </div>
-
-      <div class="about-me-frams text-light my-4">
-        <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 56.svg" alt="">Frameworks</p>
-        <div class="about-me-list small ">
-          <p>Boostrap</p>
-          <p>Ruby on Rails</p>
-          <p>RSpec</p>
-          <p>CapyBara</p>
-          <p>Selenium</p>
-        </div>
-      </div>
-
-      <div class="about-me-skills text-light my-4">
-        <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 57.svg" alt="">Skills</p>
-        <div class="about-me-list small ">
-          <p>Codekit</p>
-          <p>GitHub</p>
-          <p>Coddepen</p>
-          <p>Gitlab</p>
-          <p>Terminal</p>
+        <div class="about-me-skills text-light my-4">
+          <p class="font-weight-bolder about-me-specs-h"><img class="mr-2 mb-1" src="pictures/Rectangle 57.svg" alt="">Skills</p>
+          <div class="about-me-list small ">
+            <p>Codekit</p>
+            <p>GitHub</p>
+            <p>Coddepen</p>
+            <p>Gitlab</p>
+            <p>Terminal</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="get-in-touch-l my-5 d-none d-md-block">
-    <div class="contact-container container my-5 ">
-      <div class="contact d-flex mx-auto">
-        <p class="contact-h text-weight-bolder w-50 mx-3">I am always interested in hearing about new projects, so feel free to get in touch with me:</p>
-        <div class="contact-form w-50">
-          <form>
-            <div class="form-group">
+  <section id="contact">
+    <div class="get-in-touch-l my-5 d-none d-md-block">
+      <div class="contact-container container my-5 ">
+        <div class="contact d-flex mx-auto">
+          <p class="contact-h text-weight-bolder w-50 mx-3">I am always interested in hearing about new projects, so feel free to get in touch with me:</p>
+          <div class="contact-form w-50">
+            <form>
+              <div class="form-group">
 
-              <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput1" placeholder="Full name">
-            </div>
-            <div class="form-group">
+                <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput1" placeholder="Full name">
+              </div>
+              <div class="form-group">
 
-              <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput2" placeholder="Email adress">
-            </div>
+                <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput2" placeholder="Email adress">
+              </div>
 
-            <div class="form-group">
+              <div class="form-group">
 
-              <textarea class="form-control border-0 bg-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here..."></textarea>
-            </div>
-            <input class="button text-light font-weight-bolder submit-button-touch p-2 w-100 " type="submit" value="Get in touch" onclick="sendEmail();">
-          </form>
+                <textarea class="form-control border-0 bg-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here..."></textarea>
+              </div>
+              <input class="button text-light font-weight-bolder submit-button-touch p-2 w-100 " type="submit" value="Get in touch" onclick="sendEmail();">
+            </form>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </section>
 
 
-  <section class="get-in-touch my-5 d-md-none">
-    <div class="contact-container container-fluid my-5">
-      <div class="contact w-75 text-center mx-auto">
-        <p class="contact-h text-weight-bolder">I am always interested in hearing about new projects, so feel free to get in touch with me:</p>
-        <div class="contact-form">
-          <form>
-            <div class="form-group">
+    <div class="get-in-touch my-5 d-md-none">
+      <div class="contact-container container-fluid my-5">
+        <div class="contact w-75 text-center mx-auto">
+          <p class="contact-h text-weight-bolder">I am always interested in hearing about new projects, so feel free to get in touch with me:</p>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
 
-              <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput1" placeholder="Full name">
-            </div>
-            <div class="form-group">
+                <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput1" placeholder="Full name">
+              </div>
+              <div class="form-group">
 
-              <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput2" placeholder="Email adress">
-            </div>
+                <input type="email" class="form-control border-top-0 border-right-0 border-left-0" id="exampleFormControlInput2" placeholder="Email adress">
+              </div>
 
-            <div class="form-group">
+              <div class="form-group">
 
-              <textarea class="form-control border-0 bg-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here..."></textarea>
-            </div>
-            <input class="button text-light font-weight-bolder submit-button-touch p-2 w-100 " type="submit" value="Get in touch" onclick="sendEmail();">
-          </form>
+                <textarea class="form-control border-0 bg-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here..."></textarea>
+              </div>
+              <input class="button text-light font-weight-bolder submit-button-touch p-2 w-100 " type="submit" value="Get in touch" onclick="sendEmail();">
+            </form>
+          </div>
         </div>
       </div>
-
     </div>
   </section>
   <section class="social-links">
