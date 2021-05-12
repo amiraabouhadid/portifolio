@@ -92,16 +92,18 @@ h2 {
 .rm-cell-img {
   background-color: darkorange;
   width: 100%;
-  height: 75%;
+  height: 100%;
   left: 24px;
   top: 0px;
   z-index: 3;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .rm-cell-img-l {
   background-color: darkorange;
-  width: 100%;
+  width: 684px;
+  height: 448px;
 }
 
 .rm-img {
@@ -170,15 +172,21 @@ h4 {
 .about-me-container {
   background: black;
   z-index: 1;
+
+}
+.about-me-container-h-m{
+  height:680px;
+  background: black;
 }
 
 .about-me-container-l {
   background: black;
   z-index: 1;
+
 }
 
 .about-me-h {
-  margin-top: 35%;
+  margin-top: 55%;
   font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
