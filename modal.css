@@ -9,8 +9,8 @@
 .modal-content {
   padding: 2rem;
   top: 15%;
-  height:90%;
-  top:5%;
+  height: 90%;
+  top: 5%;
 }
 
 .modal-title {
@@ -34,6 +34,20 @@
   line-height: 24px;
 }
 
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .modal-link-wrapper {
   display: flex;
   justify-content: space-between;
@@ -43,8 +57,9 @@
   .modal-image {
     width: 90%;
   }
-  .modal{
-    padding:3rem;
+
+  .modal {
+    padding: 3rem;
   }
 
   .modal-content {
@@ -55,15 +70,11 @@
     height: 65%;
     padding: 3.5rem;
   }
-
 }
+
 @media (min-width: 1024px) {
-
-
   .modal-content {
     top: 7.5%;
     height: 90%;
-
   }
-
 }
