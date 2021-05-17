@@ -138,6 +138,11 @@ h4 {
 
 .rm-cell-link-b {
   background-color: #FF6B00;
+  z-index:20;
+}
+.rm-cell-link {
+
+  z-index:20;
 }
 
 .rm-card-1, .rm-card-2, .rm-card-3 {

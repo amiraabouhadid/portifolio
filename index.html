@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="modal.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>Amira Abouhadid</title>
 
 
@@ -97,9 +99,41 @@
             <p class="small p-2 border">Bootstrap</p>
 
           </div>
-          <div class="rm-cell-link">
-            <button class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button" onclick="launchMod(1);">See Project</button>
+
+
+          <div class=" rm-cell-link">
+
+            <button onclick="document.getElementById('id01').style.display='block'" class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b">See Project</button>
+            <div id="id01" class="modal w-100">
+              <div class="modal-content">
+                <div class="container">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <div class="modal-title mb-2 py-1">
+                    <h4 class="project-title mb-3 font-weight-bold">Search Engine Directory</h4>
+                  </div>
+                  <div class="rm-cell-langs row ">
+                    <p class="small p-2 border mx-3">CSS3</p>
+                    <p class="small p-2 border mr-3">HTML5</p>
+                    <p class="small p-2 border">Bootstrap</p>
+                  </div>
+                  <div class="modal-image-wrapper  d-flex align-items-center justify-content-center">
+                    <img class="modal-image px-5 py-1" src="pictures/fluidschule.png" alt="">
+                  </div>
+                  <div class="modal-description">
+                    <p>A responsive and adaptable directory that links to search results and details pages. </p>
+                  </div>
+
+                  <div class="modal-link-wrapper">
+                    <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://amiraabouhadid.github.io/Fluidsschule/">Live Demo <i
+                          class="fas fa-external-link-alt"></i></a></button>
+                    <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/Fluidsschule">Source Code <i
+                          class="fas fa-external-link-alt"></i></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
 
         <div class="rm-card-cell my-4">
@@ -116,7 +150,34 @@
               </div>
             </div>
           </div>
-          <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button" onclick="launchMod(2);">See Project</button>
+          <div class=" rm-cell-link">
+            <button onclick="document.getElementById('id02').style.display='block'" class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b">See Project</button>
+            <div id="id02" class="modal w-100">
+              <div class="modal-content">
+                <div class="container">
+                  <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <div class="modal-title mb-2 py-1">
+                    <h4 class="project-title mb-3 font-weight-bold">Data Scraper</h4>
+                  </div>
+                  <div class="rm-cell-langs row ">
+                    <p class="small p-2 border mx-3">Ruby</p>
+
+                  </div>
+                  <div class="modal-image-wrapper  d-flex align-items-center justify-content-center">
+                    <img class="modal-image px-5 py-1" src="pictures/p-3.png" alt="">
+                  </div>
+                  <div class="modal-description">
+                    <p>A customizable data scraper that fetches information from a website. </p>
+                  </div>
+
+                  <div class="modal-link-wrapper">
+                    <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/data-scraper">Source Code <i
+                          class="fas fa-external-link-alt"></i></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="rm-card-cell my-4">
@@ -129,14 +190,43 @@
                 <p class="text-light">An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post.</p>
               </div>
               <div class="rm-card-langs row">
-                <p class="small text-light p-2 border mx-3">Ruby</p>
-                <p class="small text-light p-2 border mr-3">JS</p>
+                <p class="small  text-light p-2 border mx-3">Ruby</p>
+                <p class="small  text-light p-2 border mr-3">JS</p>
                 <p class="small text-light p-2 border mr-3">SCSS</p>
-                <p class="small text-light p-2 border mr-3">HTML</p>
+                <p class="small  text-light p-2 border mr-3">HTML</p>
               </div>
             </div>
           </div>
-          <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+          <div class=" rm-cell-link">
+            <button onclick="document.getElementById('id03').style.display='block'" class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b">See Project</button>
+            <div id="id03" class="modal w-100">
+              <div class="modal-content">
+                <div class="container">
+                  <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <div class="modal-title mb-2 py-1">
+                    <h4 class="project-title mb-3 font-weight-bold">Members Only</h4>
+                  </div>
+                  <div class="rm-cell-langs row ">
+                    <p class="small  p-2 border mx-3">Ruby</p>
+                    <p class="small  p-2 border mr-3">JS</p>
+                    <p class="small  p-2 border mr-3">SCSS</p>
+                    <p class="small p-2 border mr-3">HTML</p>
+                  </div>
+                  <div class="modal-image-wrapper  d-flex align-items-center justify-content-center">
+                    <img class="modal-image px-5 py-1" src="pictures/p-4.png" alt="">
+                  </div>
+                  <div class="modal-description">
+                    <p>An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post. </p>
+                  </div>
+
+                  <div class="modal-link-wrapper">
+                    <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/members-only">Source Code <i
+                          class="fas fa-external-link-alt"></i></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="rm-card-cell my-4">
@@ -156,7 +246,36 @@
               </div>
             </div>
           </div>
-          <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+          <div class=" rm-cell-link">
+            <button onclick="document.getElementById('id04').style.display='block'" class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b">See Project</button>
+            <div id="id04" class="modal w-100">
+              <div class="modal-content">
+                <div class="container">
+                  <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <div class="modal-title mb-2 py-1">
+                    <h4 class="project-title mb-3 font-weight-bold">Private Events</h4>
+                  </div>
+                  <div class="rm-cell-langs row ">
+                    <p class="small  p-2 border mx-3">Rails</p>
+                    <p class="small  p-2 border mr-3">JS</p>
+                    <p class="small p-2 border mr-3">SCSS</p>
+                    <p class="small  p-2 border mr-3">HTML</p>
+                  </div>
+                  <div class="modal-image-wrapper  d-flex align-items-center justify-content-center">
+                    <img class="modal-image px-5 py-1" src="pictures/p-5.png" alt="">
+                  </div>
+                  <div class="modal-description">
+                    <p>A website where only members can create or enroll in events. Creators can invite other users to their events. </p>
+                  </div>
+
+                  <div class="modal-link-wrapper">
+                    <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/privateEvents">Source Code <i
+                          class="fas fa-external-link-alt"></i></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -169,7 +288,7 @@
         <div class="rm-body-l  row  ">
           <div class="rm-cell-img-l h-75 col-6 d-flex justify-content-center">
             <img class="rm-img-l p-5 d-none d-lg-block" src="pictures/search-l.png" alt="">
-            <img class="rm-img-l  p-5 d-none d-md-block d-lg-none" src="pictures/search-m.png" alt="">
+            <img class="rm-img-l  p-5 d-none d-sm-block d-lg-none" src="pictures/search-m.png" alt="">
           </div>
           <div class="rm-cell-l-right col-6">
             <h4 class="project-title font-weight-bold ">Search Engine Directory</h4>
@@ -179,7 +298,41 @@
               <p class="small p-2 border mr-3">HTML5</p>
               <p class="small p-2 border">Bootstrap</p>
             </div>
-            <button class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b" type="button" name="button">See Project</button>
+            <div class=" rm-cell-link">
+
+              <button onclick="document.getElementById('id05').style.display='block'" class="px-3 py-2 my-2 mr-2 border-light text-light font-weight-bolder rm-cell-link-b">See Project</button>
+              <div id="id05" class="modal w-100 ">
+                <div class="modal-content p-5 ">
+                  <div class="container">
+                    <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <div class="modal-title mb-2 py-1 px-0">
+                      <p class="project-title mb-3 font-weight-bold">Search Engine Directory</p>
+                    </div>
+                    <div class="rm-cell-langs row ">
+                      <p class="small p-2 border mx-3">CSS3</p>
+                      <p class="small p-2 border mr-3">HTML5</p>
+                      <p class="small p-2 border">Bootstrap</p>
+                    </div>
+                    <div class="modal-body-l d-flex row flex-nowrap">
+                      <div class="modal-image-wrapper  ">
+                        <img class="modal-image px-1 pl-3" src="pictures/fluidschule.png" alt="">
+                      </div>
+                      <div class="modal-description ">
+                        <p>A responsive and adaptable directory that links to search results and details pages. </p>
+                        <div class="modal-link-wrapper">
+                          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://amiraabouhadid.github.io/Fluidsschule/">Live Demo <i
+                                class="fas fa-external-link-alt"></i></a></button>
+                          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/Fluidsschule">Source Code <i
+                                class="fas fa-external-link-alt"></i></a></button>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -199,7 +352,38 @@
                 </div>
               </div>
             </div>
-            <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+            <div class=" rm-cell-link">
+
+              <button onclick="document.getElementById('id06').style.display='block'" class="w-100 rm-cell-link-b text-light font-weight-bolder p-2">See Project</button>
+              <div id="id06" class="modal w-100 ">
+                <div class="modal-content p-5 ">
+                  <div class="container">
+                    <span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <div class="modal-title mb-2 py-1 px-0">
+                      <p class="project-title mb-3 font-weight-bold">Data Scraper</p>
+                    </div>
+                    <div class="rm-cell-langs row ">
+                      <p class="small p-2 border mx-3  text-center">Ruby</p>
+
+                    </div>
+                    <div class="modal-body-l d-flex row flex-nowrap">
+                      <div class="modal-image-wrapper  ">
+                        <img class="modal-image px-1 pl-3" src="pictures/p-3.png" alt="">
+                      </div>
+                      <div class="modal-description ">
+                        <p>A customizable data scraper that fetches information from a website. </p>
+                        <div class="modal-link-wrapper">
+                          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/data-scraper">Source Code <i
+                                class="fas fa-external-link-alt"></i></a></button>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="rm-card-cell my-4 col-4">
             <div class="rm-card-2">
@@ -217,7 +401,40 @@
                 </div>
               </div>
             </div>
-            <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+            <div class=" rm-cell-link">
+
+              <button onclick="document.getElementById('id07').style.display='block'" class="w-100 rm-cell-link-b text-light font-weight-bolder p-2">See Project</button>
+              <div id="id07" class="modal w-100 ">
+                <div class="modal-content p-5 ">
+                  <div class="container">
+                    <span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <div class="modal-title mb-2 py-1 px-0">
+                      <p class="project-title mb-3 font-weight-bold">Members Only</p>
+                    </div>
+                    <div class="rm-cell-langs row ">
+                      <p class="small  p-2 border mx-3">Ruby</p>
+                      <p class="small  p-2 border mr-3">JS</p>
+                      <p class="small  p-2 border mr-3">SCSS</p>
+
+                    </div>
+                    <div class="modal-body-l d-flex row flex-nowrap">
+                      <div class="modal-image-wrapper  ">
+                        <img class="modal-image px-1 pl-3" src="pictures/p-4.png" alt="">
+                      </div>
+                      <div class="modal-description ">
+                        <p>An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post. </p>
+                        <div class="modal-link-wrapper">
+                          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/members-only">Source Code <i
+                                class="fas fa-external-link-alt"></i></a></button>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
 
@@ -237,12 +454,66 @@
                 </div>
               </div>
             </div>
-            <button class="w-100 rm-cell-link-b text-light font-weight-bolder p-2" type="button" name="button">See Project</button>
+            <div class=" rm-cell-link">
+
+              <button onclick="document.getElementById('id08').style.display='block'" class="w-100 rm-cell-link-b text-light font-weight-bolder p-2">See Project</button>
+              <div id="id08" class="modal w-100 ">
+                <div class="modal-content p-5 ">
+                  <div class="container">
+                    <span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <div class="modal-title mb-2 py-1 px-0">
+                      <p class="project-title mb-3 font-weight-bold">Private Events</p>
+                    </div>
+                    <div class="rm-cell-langs row ">
+                      <p class="small  p-2 border mx-3">Rails</p>
+                      <p class="small  p-2 border mr-3">JS</p>
+                      <p class="small  p-2 border mr-3">SCSS</p>
+
+                    </div>
+                    <div class="modal-body-l d-flex row flex-nowrap">
+                      <div class="modal-image-wrapper  ">
+                        <img class="modal-image px-1 pl-3" src="pictures/p-5.png" alt="">
+                      </div>
+                      <div class="modal-description ">
+                        <p>An exclusive clubhouse where members can write anonymous posts. Other members can see the post's author but non-members can only see the post. </p>
+                        <div class="modal-link-wrapper">
+                          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://github.com/amiraabouhadid/privateEvents">Source Code <i
+                                class="fas fa-external-link-alt"></i></a></button>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
+    <div class="modal" id='project-modal'>
+      <div class="modal-content">
+        <div class="modal-head">
+          <span class="close">&times;</span>
+          <p id="project-title" class="modal-title"></p>
+        </div>
+        <div class="rm-card-langs" id='project-langs'>
+        </div>
+        <div class="modal-image-container">
+          <div class="modal-image">
+            <img src="" id='project-image' alt="">
+          </div>
+        </div>
+        <p id='project-description'></p>
+        <div class="" id="project-links">
+
+        </div>
+      </div>
+
+    </div>
+
   </section>
   <section id="about">
     <div class="about-me-container-l container-fluid w-100 my-5 d-none d-md-block">
@@ -252,8 +523,8 @@
           <p class="about-me-bod text-light ">Hello, I am a software developer! I can help you transform your ideas to valuable products, features or website. Have a look through my work and experience. If you like what you see, then feel free to
             contact
             me. </p>
-          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a class="text-light font-weight-bolder " href="https://docs.google.com/document/d/1lzOVCSxye1t8F3rjioJBGybBl7tm1Tnq8zq1iveNdbk/edit?usp=sharing">Get My Resume <i
-                class="fas fa-external-link-alt"></i></a></button>
+          <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://docs.google.com/document/d/1lzOVCSxye1t8F3rjioJBGybBl7tm1Tnq8zq1iveNdbk/edit?usp=sharing">Get
+              My Resume <i class="fas fa-external-link-alt"></i></a></button>
         </div>
 
         <div class="w-50 mt-5 ">
@@ -308,7 +579,8 @@
         <p class="about-me-bod text-light ">Hello, I am a software developer! I can help you transform your ideas to valuable products, features or website. Have a look through my work and experience. If you like what you see, then feel free to
           contact
           me. </p>
-        <button class="about-me-resume-b text-light font-weight-bolder border-0 p-2" type="button" name="button">Get My Resume</button>
+        <button class="about-me-resume-b border-0 p-2" type="button" name="button"><a target='_blank' class="text-light font-weight-bolder " href="https://docs.google.com/document/d/1lzOVCSxye1t8F3rjioJBGybBl7tm1Tnq8zq1iveNdbk/edit?usp=sharing">Get
+            My Resume <i class="fas fa-external-link-alt"></i></a></button>
         <img class='side-design-2 d-md-none ml-auto float-right' class="small" src="pictures/group_2_s.png" alt="">
       </div>
 
@@ -418,10 +690,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
-  <script src="script.js">
-
-  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
