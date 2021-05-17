@@ -9,8 +9,9 @@
 .modal-content {
   padding: 2rem;
   top: 15%;
-  height: 90%;
-  top: 5%;
+  height: 97%;
+  top: 2.5%;
+  bottom:2%;
 }
 
 .modal-title {
